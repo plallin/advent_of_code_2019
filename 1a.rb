@@ -1,0 +1,1 @@
+p File.read('input/1').split("\n").map { |s| s.to_i }.map { |i| (i / 3) - 2 }.sum
